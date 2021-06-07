@@ -367,18 +367,18 @@
 								"gem install minitest",
                                 "# Install the required plugins",
                                 "cd /var/lib/jenkins/plugins",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/multiple-scms.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/github-api.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/scm-api.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/git-client.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/github.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/git.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/codedeploy.hpi",
-                                "curl -O -L https://updates.jenkins-ci.org/latest/aws-codepipeline.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/multiple-scms.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/github-api.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/scm-api.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/git-client.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/github.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/git.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/codedeploy.hpi",
+                                "sudo curl -O -L https://updates.jenkins-ci.org/latest/aws-codepipeline.hpi",
 								"curl -O -L https://updates.jenkins-ci.org/latest/rake.hpi",
-                                "chown jenkins:jenkins *.hpi",
+                                "sudo chown jenkins:jenkins *.hpi",
                                 "# Restarting Jenkins",
-                                "service jenkins restart"
+                                "sudo service jenkins restart"
                             ]
                         ]
                     }
