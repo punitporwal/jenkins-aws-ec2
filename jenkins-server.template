@@ -375,7 +375,7 @@
                                 "sudo curl -O -L https://updates.jenkins-ci.org/latest/git.hpi",
                                 "sudo curl -O -L https://updates.jenkins-ci.org/latest/codedeploy.hpi",
                                 "sudo curl -O -L https://updates.jenkins-ci.org/latest/aws-codepipeline.hpi",
-								"curl -O -L https://updates.jenkins-ci.org/latest/rake.hpi",
+				"sudo curl -O -L https://updates.jenkins-ci.org/latest/rake.hpi",
                                 "sudo chown jenkins:jenkins *.hpi",
                                 "# Restarting Jenkins",
                                 "sudo service jenkins restart"
